@@ -1,5 +1,4 @@
 # Google Book Search 
-[View The Demo](https://lit-caverns-96565.herokuapp.com/)
 
 ## Description:
 

@@ -1,0 +1,123 @@
+
+.white-text{
+    color: #FFFFFF;
+}
+
+.white-background{
+   background-color: #b459c0c2;
+}
+
+body{
+    background-image: url(./image/ao.gif);
+}
+
+.global{
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.logo{
+    padding: 20px 0px;
+}
+
+.logo img{
+    max-width: 100px;
+}
+
+.global .logo-text{
+    display: inline;
+    padding: 40px 0px;
+    font-weight: bold;
+    color: #26272f;
+}
+
+.search-status{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 18px 0;
+}
+
+.book-column{
+    min-height: 400px;
+    animation: fade-in 500ms ease-in-out; 
+}
+
+@keyframes fade-in{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.book-wrapper{
+    max-width: 300px;
+    margin: auto;
+    overflow: hidden;
+    background: hsl(233, 71%, 61%);
+    background-image: radial-gradient(90px at 50% 41%, #aac3cf -48%,rgba(0, 0, 0, 0) 209%);
+    margin-bottom: 35px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.book-wrapper .btn{
+    width: 100%;
+    font-size: 20px;
+}
+
+.book-wrapper .btn-primary{
+    background: #67737d;
+    border: none;
+    border-radius: 0px;
+    padding: 10px 0;
+}
+
+.book-wrapper .btn-primary:hover, .btn-primary:active{
+    background-color: hsl(210, 69%, 60%);
+    border: none;
+}
+
+.book{
+    display: block;
+    cursor: pointer;
+}
+
+.book:hover{
+    text-decoration: none;
+}
+
+.book .book-image-wrapper{
+    height: 240px;
+    padding-top: 40px;
+}
+
+.book-image-wrapper img{
+    max-width: 192px;
+}
+
+.book .book-price{
+    font-weight: bold;
+    font-size: 17px;
+    max-width: 45%;
+    text-align: left;
+    position: absolute;
+    top: 0;
+    padding: 6px;
+    background: #313557;
+    border-bottom-right-radius: 6px;
+    box-shadow: 1px 1px 25px -10px black;
+}
+
+.book .book-title{
+    background: #272830;
+    padding: 14px 10px;
+    display: border-box;
+    min-height: 100px;
+    position: relative;
+}
+
+.book-title h3{
+    margin: 0;
+}
